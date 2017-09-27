@@ -60,17 +60,17 @@ Text GLabel 5700 3800 0    60   Input ~ 0
 IO1
 Text GLabel 5700 3900 0    60   Input ~ 0
 IO2
-Text GLabel 5700 2550 0    60   Input ~ 0
-PWM1
 Text GLabel 5700 2650 0    60   Input ~ 0
+PWM1
+Text GLabel 5700 2550 0    60   Input ~ 0
 PWM2
-Text GLabel 5700 2750 0    60   Input ~ 0
-PWM3
 Text GLabel 5700 2850 0    60   Input ~ 0
+PWM3
+Text GLabel 5700 2750 0    60   Input ~ 0
 PWM4
-Text GLabel 5700 2950 0    60   Input ~ 0
-PWM5
 Text GLabel 5700 3050 0    60   Input ~ 0
+PWM5
+Text GLabel 5700 2950 0    60   Input ~ 0
 PWM6
 $Comp
 L Audio-Jack-2 J9

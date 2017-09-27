@@ -207,10 +207,10 @@ Wire Wire Line
 Text Label 5000 4300 0    60   ~ 0
 SW_5
 $Comp
-L R_Pack04 RN1
+L R_Pack04 RN2
 U 1 1 59B017A5
 P 4450 2200
-F 0 "RN1" V 4150 2200 50  0000 C CNN
+F 0 "RN2" V 4150 2200 50  0000 C CNN
 F 1 "10k" V 4650 2200 50  0000 C CNN
 F 2 "Resistors_SMD:R_Array_Concave_4x0603" V 4725 2200 50  0001 C CNN
 F 3 "" H 4450 2200 50  0001 C CNN
@@ -244,10 +244,10 @@ Wire Wire Line
 	4400 1800 4400 1900
 Connection ~ 4400 1900
 $Comp
-L R_Pack04 RN2
+L R_Pack04 RN3
 U 1 1 59B01A70
 P 4450 3750
-F 0 "RN2" V 4150 3750 50  0000 C CNN
+F 0 "RN3" V 4150 3750 50  0000 C CNN
 F 1 "10k" V 4650 3750 50  0000 C CNN
 F 2 "Resistors_SMD:R_Array_Concave_4x0603" V 4725 3750 50  0001 C CNN
 F 3 "" H 4450 3750 50  0001 C CNN
@@ -336,21 +336,21 @@ Text GLabel 6400 3450 0    60   Input ~ 0
 SDA
 Text GLabel 6400 3350 0    60   Input ~ 0
 SCL
-Text Label 7200 3350 0    60   ~ 0
-SW_1
-Text Label 7200 3450 0    60   ~ 0
-SW_2
 Text Label 7200 3550 0    60   ~ 0
-SW_3
+SW_1
 Text Label 7200 3650 0    60   ~ 0
-SW_4
+SW_2
 Text Label 7200 3750 0    60   ~ 0
-SW_5
+SW_3
 Text Label 7200 3850 0    60   ~ 0
-SW_6
+SW_4
 Text Label 7200 3950 0    60   ~ 0
-ENC_A
+SW_5
 Text Label 7200 4050 0    60   ~ 0
+SW_6
+Text Label 7200 3350 0    60   ~ 0
+ENC_A
+Text Label 7200 3450 0    60   ~ 0
 ENC_B
 $Comp
 L C C48
