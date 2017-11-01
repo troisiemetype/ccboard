@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:ContactConsequencesMono-rescue
 LIBS:switches-perso
 LIBS:Logos
 LIBS:leds
@@ -187,6 +188,50 @@ F 1 "Mounting_hole" H 10550 2550 60  0000 C CNN
 F 2 "Mounting_Holes:MountingHole_3.2mm_M3" H 10550 2350 60  0001 C CNN
 F 3 "" H 10550 2350 60  0001 C CNN
 	1    10550 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mouse_bites_0.5_6 S1
+U 1 1 59CDD6D3
+P 9800 2950
+F 0 "S1" H 9800 2650 60  0000 C CNN
+F 1 "Mouse_bites_0.5_6" H 9800 3200 60  0000 C CNN
+F 2 "Holes_Fids:Mouse_bites_0.5_6" H 9800 2950 60  0001 C CNN
+F 3 "" H 9800 2950 60  0001 C CNN
+	1    9800 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mouse_bites_0.5_6 S3
+U 1 1 59CDD752
+P 10550 2950
+F 0 "S3" H 10550 2650 60  0000 C CNN
+F 1 "Mouse_bites_0.5_6" H 10550 3200 60  0000 C CNN
+F 2 "Holes_Fids:Mouse_bites_0.5_6" H 10550 2950 60  0001 C CNN
+F 3 "" H 10550 2950 60  0001 C CNN
+	1    10550 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mouse_bites_0.5_6 S2
+U 1 1 59CDD797
+P 9800 3400
+F 0 "S2" H 9800 3100 60  0000 C CNN
+F 1 "Mouse_bites_0.5_6" H 9800 3650 60  0000 C CNN
+F 2 "Holes_Fids:Mouse_bites_0.5_6" H 9800 3400 60  0001 C CNN
+F 3 "" H 9800 3400 60  0001 C CNN
+	1    9800 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mouse_bites_0.5_6 S4
+U 1 1 59CDD857
+P 10550 3400
+F 0 "S4" H 10550 3100 60  0000 C CNN
+F 1 "Mouse_bites_0.5_6" H 10550 3650 60  0000 C CNN
+F 2 "Holes_Fids:Mouse_bites_0.5_6" H 10550 3400 60  0001 C CNN
+F 3 "" H 10550 3400 60  0001 C CNN
+	1    10550 3400
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
